@@ -1,0 +1,11 @@
+[package]
+name = "aenex-discord"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenvy = "0.15.7"
+poise = "0.6.1"
+serenity = "0.12.4"
+sqlx = { version = "0.8.2", features = ["migrate", "postgres", "runtime-tokio", "tls-rustls-ring"] }
+tokio = { version = "1.42.0", features = ["full"] }
